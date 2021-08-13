@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Friends - Kokoa clone</title>
+        <title>Friends - Kokoa Clone</title>
     </head>
     <body>
         <div class="status-bar">
@@ -12,13 +12,12 @@
                 <span>No Service</span>
                 <i class="fas fa-wifi"></i>
             </div>
-
             <div class="status-bar__column">
                 <span>18:43</span>
             </div>
             <div class="status-bar__column">
-                <span>11%</span>
-                <i class="fas fa-battery-full"></i>
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
                 <i class="fas fa-bolt"></i>
             </div>
         </div>
@@ -33,7 +32,7 @@
         </header>
 
         <a id="friends-display-link">
-            <i class="fas fa-info-circle"></i> Firends' Names Display
+            <i class="fas fa-info-circle"></i> Friends' Names Display
             <i class="fas fa-chevron-right fa-xs"></i>
         </a>
 
@@ -43,18 +42,18 @@
                     <img
                         src="https://avatars.githubusercontent.com/u/12447457"
                         class="
-                            user-component__avater user-component__avater--xl
+                            user-component__avatar user-component__avatar--xl
                         "
                     />
                     <div class="user-component__text">
-                        <h4 class="user-component__title">Jinu</h4>
+                        <h4 class="user-component__title">Nicolas</h4>
                         <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
                     </div>
                 </div>
                 <div class="user-component__column"></div>
             </div>
             <div class="friends-screen__channel">
-                <div class="friends-screen__channle-header">
+                <div class="friends-screen__channel-header">
                     <span>Channel</span>
                     <i class="fas fa-chevron-up fa-xs"></i>
                 </div>
@@ -63,8 +62,8 @@
                         <img
                             src="https://avatars.githubusercontent.com/u/12447457"
                             class="
-                                user-component__avater
-                                user-component__avater--sm
+                                user-component__avatar
+                                user-component__avatar--sm
                             "
                         />
                         <div class="user-component__text">
@@ -79,8 +78,10 @@
                         </div>
                     </div>
                     <div class="user-component__column">
-                        <span>2</span>
-                        <i class="fas fa-chevron-right fa-xs"></i>
+                        <div>
+                            <span>2</span>
+                            <i class="fas fa-chevron-right fa-xs"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,21 +95,20 @@
                     ></a>
                 </li>
                 <li class="nav__btn">
-                    <a class="nav__link" href="#">
-                        <span class="nav__notification">1</span>
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">1</span>
                         <i class="far fa-comment fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav__btn">
-                    <a class="nav__link" href="#">
-                        <i class="fas fa-search fa-2x"></i>
-                    </a>
+                    <a class="nav__link" href="find.html"
+                        ><i class="fas fa-search fa-2x"></i
+                    ></a>
                 </li>
                 <li class="nav__btn">
-                    <a class="nav__link" href="#">
-                        <span class="nav__dot"></span>
-                        <i class="fas fa-ellipsis-h fa-lg"></i>
-                    </a>
+                    <a class="nav__link" href="more.html"
+                        ><i class="fas fa-ellipsis-h fa-2x"></i
+                    ></a>
                 </li>
             </ul>
         </nav>
