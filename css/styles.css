@@ -3,12 +3,17 @@
 @import "variable.css";
 @import "status-bar.css";
 
-/* Components */
-@import "screens/login.css";
-
 /* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+/* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 body {
     font-family: "Open Sans", sans-serif;
+    color: #2e363e;
 }
