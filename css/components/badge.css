@@ -9,3 +9,25 @@
     color: white;
     font-weight: 600;
 }
+
+.exclamation-mark {
+    position: absolute;
+    color: tomato;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 550;
+    border: 1px solid tomato;
+    border-radius: 50%;
+}
+
+.point {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    border-radius: 2.5px;
+    position: absolute;
+}

@@ -52,3 +52,11 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__text {
+    position: relative;
+}
+.user-component__exclamation-mark {
+    left: 140px;
+    top: 30px;
+}
