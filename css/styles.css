@@ -19,6 +19,7 @@
 @import "components/icon-row.css";
 @import "components/point.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 body {
     font-family: "Open Sans", sans-serif;
